@@ -1,0 +1,212 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/netfapxnet-downloader",
+  "serply_link": "https://serp.ly/netfapxnet-downloader",
+  "app_name": "Netfapxnet Video Downloader",
+  "short_description": "Download & Save Netfapxnet Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Netfapxnet Downloader is a browser extension built specifically for NetFapX.net pages that resolve at bare numeric paths like /229969/. Instead of assuming a polished library layout, this tool works with the actual page behavior — waiting for the embedded player to load, then checking for available media sources in m3u8 or mp4 format. It is designed for users who understand that not every video page follows a clean template.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/netfapxnet-downloader-fullscreen-01-2d8559d1f3.webp",
+    "https://apps.serp.co/media/optimized-products/netfapxnet-downloader-fullscreen-02-d91df72e13.webp",
+    "https://apps.serp.co/media/optimized-products/netfapxnet-downloader-fullscreen-03-e17e1ede4a.webp",
+    "https://apps.serp.co/media/optimized-products/netfapxnet-downloader-fullscreen-04-497f3831c7.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on every NetFapX.net page?",
+      "answer": "No. It is designed specifically for pages that use bare numeric routes and iframe-based playback handoff. It may not work on other page types."
+    },
+    {
+      "question": "What formats does it support?",
+      "answer": "The extension targets m3u8 playlists and mp4 files. Other formats are not supported."
+    },
+    {
+      "question": "Is the extension verified to work?",
+      "answer": "Yes, the target is marked as verified-ready. However, the extension is still in a candidate stage with some configuration notes that limit full confidence."
+    },
+    {
+      "question": "Can I use this on other websites?",
+      "answer": "No. This extension is built exclusively for NetFapX.net pages with the.net domain variant."
+    },
+    {
+      "question": "Do I need an account to use the extension?",
+      "answer": "You need to sign in with your email to use the trial or access unlimited downloads. No credit card is required for the trial."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Anyone who wants to keep a local archive of content they have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built for NetFapX.net bare numeric route pages, not generic video sites",
+    "Waits for iframe-based playback handoff before inspecting media sources",
+    "Targets only m3u8 and mp4 formats with conservative detection",
+    "Verified target readiness with transparent rollout caveats",
+    "Keeps branding tied to the.net variant of the platform",
+    "Focused on NetFapX.net bare numeric route pages",
+    "Waits for iframe-based playback handoff before media detection",
+    "Targets only m3u8 and mp4 source formats",
+    "Verified target readiness with transparent caveats",
+    "Branding tied explicitly to the.net variant of the platform",
+    "Conservative detection logic that does not overpromise",
+    "Works with the actual page flow rather than assuming a template",
+    "Clean popup interface for reviewing detected media sources"
+  ],
+  "content": {
+    "why": [
+      "NetFapX.net pages do not always follow a predictable structure. Instead of a clean /video/ path with direct media links, many pages resolve at bare numeric routes like /229969/. The visible page shell may only be the first step — playback often shifts into an embedded iframe before any playable media becomes available. This pattern makes it difficult for generic download tools to detect and capture the video source reliably.",
+      "Netfapxnet Downloader was built to work with this specific page behavior. It recognizes the bare numeric route pattern, waits for the iframe handoff to complete, and then inspects the page for m3u8 or mp4 sources. The extension keeps its claims narrow and honest — it targets only the formats and page patterns that have been verified, and it does not promise universal compatibility across every page on the platform."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open NetFapX.net and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to a NetFapX.net video page with a bare numeric route like ``.",
+      "Wait for the page to finish loading — the iframe player needs time to initialize.",
+      "Start video playback so the media source becomes visible to the extension.",
+      "Click the Netfapxnet Downloader icon in your browser toolbar.",
+      "Review the detected media sources shown in the popup window.",
+      "Select the quality option you prefer from the available choices.",
+      "Click the download button to start the transfer.",
+      "Save the completed MP4 file to your preferred location."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and mp4 files detected after iframe playback handoff on NetFapX.net bare numeric route pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Users who regularly visit NetFapX.net and want to save videos for offline viewing",
+      "People who understand that NetFapX.net pages use bare numeric routes and embedded player handoff",
+      "Users who prefer a conservative download tool that only claims what it can actually do",
+      "Anyone who wants to keep a local archive of content they have permission to save"
+    ],
+    "use_cases": [
+      "Saving NetFapX.net videos to watch offline without an internet connection",
+      "Archiving personal content from NetFapX.net for backup purposes",
+      "Moving videos between devices without relying on streaming",
+      "Reviewing media sources detected after iframe playback handoff on numeric route pages"
+    ],
+    "troubleshooting": [
+      "No media sources detected Make sure the video has started playing before opening the extension popup. The iframe handoff needs to complete before the media source becomes visible.",
+      "Download fails to start Check your internet connection and verify that the video is still available on the page. Try refreshing the page and starting playback again.",
+      "Extension popup shows no content Ensure you are on a supported NetFapX.net page with a bare numeric route. The extension may not work on other page types.",
+      "File saves as a different format The extension attempts to export as MP4, but the source format may affect the final output. Check the file extension after saving.",
+      "Playback does not start after clicking download The download process does not interfere with page playback. If playback stops, try refreshing the page and starting the video again."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported NetFapX.net page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "NetFapX.net pages may use cross-domain handoff through domains like xiaoshenke.net during playback",
+      "The extension is in a verified-ready candidate stage with conservative messaging"
+    ],
+    "about": [
+      "NetFapX.net is a video platform that serves content through bare numeric route pages and embedded player handoff patterns. Netfapxnet Downloader helps users capture video from these pages by working with the actual page behavior rather than assuming a standard layout."
+    ]
+  },
+  "serpx_link": "https://serpx.link/netfapxnet-downloader",
+  "github_topics": [
+    "netfapxnet-download",
+    "netfapxnet-downloader",
+    "netfapxnet-video-downloader",
+    "netfapxnet-video-downloader-online",
+    "netfapxnet-video-downloader-mac",
+    "netfapxnet-video-downloader-window",
+    "netfapxnet-video-downloader-free",
+    "netfapxnet-video-downloader-extension",
+    "netfapxnet-video-downloader-app",
+    "netfapxnet-video-downloader-chrome",
+    "netfapxnet-video-downloader-from-url",
+    "how-to-download-netfapxnet-videos",
+    "how-to-download-netfapxnet-videos-mac",
+    "how-to-download-netfapxnet-videos-windows",
+    "how-to-download-netfapxnet-videos-online",
+    "how-to-download-netfapxnet-videos-free",
+    "how-to-download-from-netfapxnet",
+    "how-to-download-videos-from-netfapxnet",
+    "download-netfapxnet-videos",
+    "netfapxnet-video-tutorial",
+    "save-netfapxnet-videos",
+    "netfapxnet-video-content-saver",
+    "how-to-download-netfapxnet-videos-for-free"
+  ],
+  "hashtags": [
+    "#NetfapxnetDownload",
+    "#NetfapxnetDownloader",
+    "#NetfapxnetVideoDownloader",
+    "#NetfapxnetVideoDownloaderOnline",
+    "#NetfapxnetVideoDownloaderMac",
+    "#NetfapxnetVideoDownloaderWindow",
+    "#NetfapxnetVideoDownloaderFree",
+    "#NetfapxnetVideoDownloaderExtension",
+    "#NetfapxnetVideoDownloaderApp",
+    "#NetfapxnetVideoDownloaderChrome",
+    "#NetfapxnetVideoDownloaderFromURL",
+    "#HowToDownloadNetfapxnetVideos",
+    "#HowToDownloadNetfapxnetVideosMac",
+    "#HowToDownloadNetfapxnetVideosWindows",
+    "#HowToDownloadNetfapxnetVideosOnline",
+    "#HowToDownloadNetfapxnetVideosFree",
+    "#HowToDownloadFromNetfapxnet",
+    "#HowToDownloadVideosFromNetfapxnet",
+    "#DownloadNetfapxnetVideos",
+    "#NetfapxnetVideoTutorial",
+    "#SaveNetfapxnetVideos",
+    "#NetfapxnetVideoContentSaver",
+    "#HowToDownloadNetfapxnetVideosForFree"
+  ],
+  "youtube_tags": [
+    "Netfapxnet Download",
+    "Netfapxnet Downloader",
+    "Netfapxnet Video Downloader",
+    "Netfapxnet Video Downloader Online",
+    "Netfapxnet Video Downloader Mac",
+    "Netfapxnet Video Downloader Window",
+    "Netfapxnet Video Downloader Free",
+    "Netfapxnet Video Downloader Extension",
+    "Netfapxnet Video Downloader App",
+    "Netfapxnet Video Downloader Chrome",
+    "Netfapxnet Video Downloader From URL",
+    "How To Download Netfapxnet Videos",
+    "How To Download Netfapxnet Videos Mac",
+    "How To Download Netfapxnet Videos Windows",
+    "How To Download Netfapxnet Videos Online",
+    "How To Download Netfapxnet Videos Free",
+    "How To Download From Netfapxnet",
+    "How To Download Videos From Netfapxnet",
+    "Download Netfapxnet Videos",
+    "Netfapxnet Video Tutorial",
+    "Save Netfapxnet Videos",
+    "Netfapxnet Video Content Saver",
+    "How To Download Netfapxnet Videos For Free"
+  ]
+}
